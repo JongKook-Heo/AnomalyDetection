@@ -143,13 +143,13 @@ Molecular Descriptor로 분자를 표현할 경우 아래와 같이 나타낼 �
 print(datasets['MUV-692']['Descriptors'][['smiles', 'BCUT2D_CHGHI', 'NHOHCount', 'MolWt','VSA_EState3','label']].head().to_markdown(index=False))
 ```
 
-    | smiles                                              |   BCUT2D_CHGHI |   NHOHCount |   MolWt |   VSA_EState3 |   label |
-    |:----------------------------------------------------|---------------:|------------:|--------:|--------------:|--------:|
-    | Cn1ccnc1SCC(=O)Nc1ccc(Oc2ccccc2)cc1                 |        2.06539 |           1 | 339.42  |      3.67898  |       1 |
-    | NC(=O)NC(Cc1ccccc1)C(=O)O                           |        2.18126 |           4 | 208.217 |     10.9803   |       1 |
-    | CCn1c(CSc2nccn2C)nc2cc(C(=O)O)ccc21                 |        2.12906 |           1 | 316.386 |     10.0182   |       1 |
-    | CCCc1cc(=O)nc(SCC(=O)N(CC(C)C)C2CCS(=O)(=O)C2)[nH]1 |        2.34312 |           1 | 401.554 |      0.428556 |       1 |
-    | Cc1cccc(NC(=O)N2CCC(c3nc4ccccc4o3)CC2)c1            |        2.26623 |           1 | 335.407 |      2.97648  |       1 |
+| smiles                                              |   BCUT2D_CHGHI |   NHOHCount |   MolWt |   VSA_EState3 |   label |
+|:----------------------------------------------------|---------------:|------------:|--------:|--------------:|--------:|
+| Cn1ccnc1SCC(=O)Nc1ccc(Oc2ccccc2)cc1                 |        2.06539 |           1 | 339.42  |      3.67898  |       1 |
+| NC(=O)NC(Cc1ccccc1)C(=O)O                           |        2.18126 |           4 | 208.217 |     10.9803   |       1 |
+| CCn1c(CSc2nccn2C)nc2cc(C(=O)O)ccc21                 |        2.12906 |           1 | 316.386 |     10.0182   |       1 |
+| CCCc1cc(=O)nc(SCC(=O)N(CC(C)C)C2CCS(=O)(=O)C2)[nH]1 |        2.34312 |           1 | 401.554 |      0.428556 |       1 |
+| Cc1cccc(NC(=O)N2CCC(c3nc4ccccc4o3)CC2)c1            |        2.26623 |           1 | 335.407 |      2.97648  |       1 |
     
 
 ### Molecular MorganFingerprint
@@ -160,13 +160,13 @@ Morgan Fingerprint로 분자를 표현할 경우 아래와 같이 나타낼 수 
 print(datasets['MUV-692']['MorganFingerprint'][['smiles', 'X0000', 'X0001', 'X1024', 'X2047', 'label']].head().to_markdown(index=False))
 ```
 
-    | smiles                                              |   X0000 |   X0001 |   X1024 |   X2047 |   label |
-    |:----------------------------------------------------|--------:|--------:|--------:|--------:|--------:|
-    | Cn1ccnc1SCC(=O)Nc1ccc(Oc2ccccc2)cc1                 |       0 |       0 |       0 |       0 |       1 |
-    | NC(=O)NC(Cc1ccccc1)C(=O)O                           |       0 |       1 |       0 |       0 |       1 |
-    | CCn1c(CSc2nccn2C)nc2cc(C(=O)O)ccc21                 |       0 |       0 |       0 |       0 |       1 |
-    | CCCc1cc(=O)nc(SCC(=O)N(CC(C)C)C2CCS(=O)(=O)C2)[nH]1 |       0 |       1 |       0 |       0 |       1 |
-    | Cc1cccc(NC(=O)N2CCC(c3nc4ccccc4o3)CC2)c1            |       0 |       0 |       0 |       0 |       1 |
+| smiles                                              |   X0000 |   X0001 |   X1024 |   X2047 |   label |
+|:----------------------------------------------------|--------:|--------:|--------:|--------:|--------:|
+| Cn1ccnc1SCC(=O)Nc1ccc(Oc2ccccc2)cc1                 |       0 |       0 |       0 |       0 |       1 |
+| NC(=O)NC(Cc1ccccc1)C(=O)O                           |       0 |       1 |       0 |       0 |       1 |
+| CCn1c(CSc2nccn2C)nc2cc(C(=O)O)ccc21                 |       0 |       0 |       0 |       0 |       1 |
+| CCCc1cc(=O)nc(SCC(=O)N(CC(C)C)C2CCS(=O)(=O)C2)[nH]1 |       0 |       1 |       0 |       0 |       1 |
+| Cc1cccc(NC(=O)N2CCC(c3nc4ccccc4o3)CC2)c1            |       0 |       0 |       0 |       0 |       1 |
     
 
 ### Visualize Samples ###

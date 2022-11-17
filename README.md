@@ -127,12 +127,12 @@ df_info = pd.DataFrame({'TARGET':TARGET_LIST,
 print(df_info.to_markdown(index=False))
 ```
 
-    | TARGET   |   Size |   # of Normal |   # of Abnormals |
-    |:---------|-------:|--------------:|-----------------:|
-    | MUV-692  |  14647 |         14617 |               30 |
-    | MUV-689  |  14606 |         14577 |               29 |
-    | MUV-846  |  14714 |         14684 |               30 |
-    | MUV-859  |  14751 |         14727 |               24 |
+| TARGET   |   Size |   # of Normal |   # of Abnormals |
+|:---------|-------:|--------------:|-----------------:|
+| MUV-692  |  14647 |         14617 |               30 |
+| MUV-689  |  14606 |         14577 |               29 |
+| MUV-846  |  14714 |         14684 |               30 |
+| MUV-859  |  14751 |         14727 |               24 |
     
 
 ### Molecular Representation with Descriptors

@@ -109,11 +109,6 @@ for target in TARGET_LIST:
     datasets[target] = {'MorganFingerprint': smiles_to_df_with_fingerprint(smiles, labels),
                         'Descriptors': smiles_to_df_with_descriptors(smiles, labels)}
 ```
-
-    MUV | Target : MUV-692(classification)| Total 14647/93127 instances
-    MUV | Target : MUV-689(classification)| Total 14606/93127 instances
-    MUV | Target : MUV-846(classification)| Total 14714/93127 instances
-    MUV | Target : MUV-859(classification)| Total 14751/93127 instances
     
 
 아래 표에서 알 수 있듯이, 각 타겟 별로 정상 데이터는 약 14000개, 이상 데이터는 약 30개 정도로 극심한 클래스 불균형을 가지는 것을 알 수 있습니다.

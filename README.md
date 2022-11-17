@@ -445,16 +445,16 @@ print(ocsvm_result_df_demo.to_markdown(index=False))
 print(ocsvm_result_df_demo.groupby(['representation', 'use_pca', 'kernel'])['elapsed_time'].agg(['mean', 'std']).reset_index().to_markdown())
 ```
 
-    |    | representation    | use_pca   | kernel   |     mean |       std |
-    |---:|:------------------|:----------|:---------|---------:|----------:|
-    |  0 | Descriptors       | False     | poly     |  3.90271 |  1.21207  |
-    |  1 | Descriptors       | False     | rbf      |  4.35763 |  1.69701  |
-    |  2 | Descriptors       | True      | poly     |  2.13819 |  0.415311 |
-    |  3 | Descriptors       | True      | rbf      |  2.24817 |  0.86722  |
-    |  4 | MorganFingerprint | False     | poly     | 84.5737  | 33.8131   |
-    |  5 | MorganFingerprint | False     | rbf      | 83.1178  | 33.6279   |
-    |  6 | MorganFingerprint | True      | poly     |  1.85569 |  0.639679 |
-    |  7 | MorganFingerprint | True      | rbf      |  2.24636 |  0.859456 |
+|    | representation    | use_pca   | kernel   |     mean |       std |
+|---:|:------------------|:----------|:---------|---------:|----------:|
+|  0 | Descriptors       | False     | poly     |  3.90271 |  1.21207  |
+|  1 | Descriptors       | False     | rbf      |  4.35763 |  1.69701  |
+|  2 | Descriptors       | True      | poly     |  2.13819 |  0.415311 |
+|  3 | Descriptors       | True      | rbf      |  2.24817 |  0.86722  |
+|  4 | MorganFingerprint | False     | poly     | 84.5737  | 33.8131   |
+|  5 | MorganFingerprint | False     | rbf      | 83.1178  | 33.6279   |
+|  6 | MorganFingerprint | True      | poly     |  1.85569 |  0.639679 |
+|  7 | MorganFingerprint | True      | rbf      |  2.24636 |  0.859456 |
     
 
 ### 조합에 대한 평가 지표 비교 ###
